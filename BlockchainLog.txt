@@ -1,0 +1,85 @@
+Master script:
+MacBook-Pro:src marijajovicic$ osascript runProcesses.scpt
+
+MacBook-Pro:~ marijajovicic$ cd /Users/marijajovicic/Desktop/blockchainFinal/src && java -cp ".:gson-2.8.2.jar" Blockchain 0
+Hello from process: 0
+Process 2 is on, starting...
+Reading file... BlockInput0.txt
+Received all public keys.
+
+Block ID 1 SOLVED! (PID: 1) 
+Block ID 1 (Coming from PID: 1) is VERIFIED: true
+Block ID 2 SOLVED! (PID: 2) 
+Block ID 2 (Coming from PID: 2) is VERIFIED: true
+Block ID 3 SOLVED! (PID: 2) 
+Block ID 3 (Coming from PID: 2) is VERIFIED: true
+Block ID 4 SOLVED! (PID: 0)
+Block ID 5 SOLVED! (PID: 0)
+Block ID 6 SOLVED! (PID: 2) 
+Block ID 6 (Coming from PID: 2) is VERIFIED: true
+Block ID 7 SOLVED! (PID: 2) 
+Block ID 7 (Coming from PID: 2) is VERIFIED: true
+Block ID 8 SOLVED! (PID: 1) 
+Block ID 8 (Coming from PID: 1) is VERIFIED: true
+Block ID 9 SOLVED! (PID: 0)
+Block ID 10 SOLVED! (PID: 0)
+Block ID 11 SOLVED! (PID: 0)
+Block ID 12 SOLVED! (PID: 0)
+Verified all the blocks. Bye bye!
+
+
+MacBook-Pro:~ marijajovicic$ cd /Users/marijajovicic/Desktop/blockchainFinal/src && java -cp ".:gson-2.8.2.jar" Blockchain 1
+Hello from process: 1
+Process 2 is on, starting...
+Reading file... BlockInput1.txt
+Received all public keys.
+
+Block ID 1 SOLVED! (PID: 1)
+Block ID 2 SOLVED! (PID: 2) 
+Block ID 2 (Coming from PID: 2) is VERIFIED: true
+Block ID 3 SOLVED! (PID: 2) 
+Block ID 3 (Coming from PID: 2) is VERIFIED: true
+Block ID 4 SOLVED! (PID: 0) 
+Block ID 4 (Coming from PID: 0) is VERIFIED: true
+Block ID 5 SOLVED! (PID: 0) 
+Block ID 5 (Coming from PID: 0) is VERIFIED: true
+Block ID 6 SOLVED! (PID: 2) 
+Block ID 6 (Coming from PID: 2) is VERIFIED: true
+Block ID 7 SOLVED! (PID: 2) 
+Block ID 7 (Coming from PID: 2) is VERIFIED: true
+Block ID 8 SOLVED! (PID: 1)
+Block ID 9 SOLVED! (PID: 0) 
+Block ID 9 (Coming from PID: 0) is VERIFIED: true
+Block ID 10 SOLVED! (PID: 0) 
+Block ID 10 (Coming from PID: 0) is VERIFIED: true
+Block ID 11 SOLVED! (PID: 0) 
+Block ID 11 (Coming from PID: 0) is VERIFIED: true
+Block ID 12 SOLVED! (PID: 0) 
+Block ID 12 (Coming from PID: 0) is VERIFIED: true
+Verified all the blocks. Bye bye!
+
+
+
+MacBook-Pro:~ marijajovicic$ cd /Users/marijajovicic/Desktop/blockchainFinal/src && java -cp ".:gson-2.8.2.jar" Blockchain 2
+Hello from process: 2
+Process 2 is on, starting...
+Reading file... BlockInput2.txt
+Received all public keys.
+
+Block ID 1 SOLVED! (PID: 1) 
+Block ID 1 (Coming from PID: 1) is VERIFIED: true
+Block ID 2 SOLVED! (PID: 2)
+Block ID 3 SOLVED! (PID: 2)
+Block ID 4 SOLVED! (PID: 0) 
+Block ID 4 (Coming from PID: 0) is VERIFIED: true
+Block ID 5 SOLVED! (PID: 0) 
+Block ID 5 (Coming from PID: 0) is VERIFIED: true
+Block ID 6 SOLVED! (PID: 2)
+Block ID 7 SOLVED! (PID: 2)
+Block ID 8 SOLVED! (PID: 1) 
+Block ID 8 (Coming from PID: 1) is VERIFIED: true
+Block ID 9 SOLVED! (PID: 0) 
+Block ID 9 (Coming from PID: 0) is VERIFIED: true
+Block ID 10 SOLVED! (PID: 0) 
+Block ID 10 (Coming from PID: 0) is VERIFIED: true
+Verified all the blocks. Bye bye!
